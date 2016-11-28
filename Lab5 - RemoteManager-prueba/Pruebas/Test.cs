@@ -173,11 +173,9 @@ namespace Pruebas
             try
             {
                 // timer();
-                //timer1.Enabled = true;
-                //timer1.Start();
-                int intervalo = Int32.Parse(textBox1.Text);
-                intervalo = intervalo * 60000;
-                timer1.Interval = intervalo;
+                int enviandoctiempo = Int32.Parse(textBox1.Text);
+                enviandoctiempo = enviandoctiempo * 60000;
+                timer1.Interval = enviandoctiempo;
                 timer1.Enabled = true;
                 timer1.Start();
             }
