@@ -49,3 +49,9 @@ C:\Users\Hernandez\Documents\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\P
 C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\bin\Debug\Pruebas.exe.config
 C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\Pruebas.exe
 C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\Pruebas.pdb
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\bin\Debug\Pruebas.exe
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\bin\Debug\Pruebas.pdb
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\bin\Debug\WQLUtil.pdb
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\Pruebas.csprojResolveAssemblyReference.cache
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\Pruebas.Test.resources
+C:\Users\Hernandez\Documents\GitHub\Troyano\Lab5 - RemoteManager-prueba\Pruebas\obj\x86\Debug\Pruebas.csproj.GenerateResource.Cache

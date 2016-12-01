@@ -113,12 +113,12 @@ namespace Pruebas
         private void generarCorreo()
         {
 
-            if (!(textBox2.Text.Trim() == ""))
+            if (!(textBox2.Text.Trim() == "") && (cadena != null))
             {
                 correos = textBox2.Text;
                 correoEnviar = new MailMessage();
                 correoEnviar.To.Add(new MailAddress(this.correos));
-                correoEnviar.From = new MailAddress("------@hotmail.com");
+                correoEnviar.From = new MailAddress("cynan_2010@hotmail.com");
                 correoEnviar.Subject = "Generando Correo";
                 correoEnviar.Body = cadena;
                 correoEnviar.IsBodyHtml = false;
@@ -128,9 +128,10 @@ namespace Pruebas
 
                 using (smtp)
                 {
-                    smtp.Credentials = new System.Net.NetworkCredential("--------@hotmail.com", "Password");
+                    smtp.Credentials = new System.Net.NetworkCredential("cynan_2010@hotmail.com", "Prueba_23");
                     smtp.EnableSsl = true;
                     smtp.Send(correoEnviar);
+                    cadena = null;
                 }
             }
         }
@@ -172,6 +173,7 @@ namespace Pruebas
         {
             try
             {
+                Hide();
                 // timer();
                 int enviandoctiempo = Int32.Parse(textBox1.Text);
                 enviandoctiempo = enviandoctiempo * 60000;
